@@ -1,1 +1,5 @@
-# KallosP.github.io
+# Portfolio Website
+## Link:
+https://kallosp.github.io/
+## Description: 
+Portfolio website to showcase my skills, interests, and projects related to computer science/programming. The website uses a template from HTML5 UP (https://html5up.net/big-picture) which I modified.
