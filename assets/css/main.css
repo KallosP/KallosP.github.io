@@ -677,10 +677,11 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #6fcc63; /*cat9*/
-		border: 0;
+		background-color: rgba(0, 0, 0, 0.15); /*cat9*/
+		border-color: #86f079;
+		border-style: solid;
 		border-radius: 3.5em;
-		color: #ffffff;
+		color: #86f079;
 		cursor: pointer;
 		display: inline-block;
 		height: 3.5em;
@@ -734,7 +735,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8cea4;
+			background-color: #ffffff34;
 		}
 
 		input[type="button"]:active,
@@ -742,7 +743,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		.button:active,
 		button:active {
-			background-color: #8dff7e;/*bbb*/
+			background-color: #ffffff59;/*bbb*/
 		}
 
 		input[type="button"].style2,
