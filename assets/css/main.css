@@ -18,7 +18,32 @@ a:hover {
 	text-decoration: none; 
 	background-color: #2d6326;
 }
-		
+
+/* Scrollbar */
+::-webkit-scrollbar-corner { 
+    background-color: rgb(58, 58, 58);
+} 
+
+::-webkit-scrollbar {
+	width: 10px;
+} 
+
+::-webkit-scrollbar-track{
+    background-color: rgb(58, 58, 58);
+} 
+
+::-webkit-scrollbar-thumb {
+	background-color: #8dff7edc;
+	border-radius: 10px;
+} 
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #8dff7eec;
+} 
+
+::-webkit-scrollbar-thumb:active {
+	background-color: #8dff7e;
+}
 		
 a:active { text-decoration: none; }
 
