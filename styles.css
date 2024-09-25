@@ -18,6 +18,11 @@
   src: url('fonts/Poppins-Bold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Poppins Semi Bold';
+  src: url('fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+
 :root {
   /* variables */
   --green-black: rgb(24, 28, 28);
@@ -57,6 +62,7 @@ main h1 {
 }
 
 /* CSS for about page */
+
 .about {
   display: flex;
   align-items: center;
@@ -79,6 +85,7 @@ main h1 {
 }
 
 /* CSS for portfolio page */
+
 .project {
   align-items: center;
   flex-direction: row;
@@ -125,6 +132,74 @@ main h1 {
 .project-name {
   font-family: "Poppins Bold";
   font-size: x-large;
+}
+
+/* CSS from resume page */
+
+.download-button {
+  border: solid 1px var(--bright-green);
+  border-radius: 30px;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--button-color);
+  transition: background-color 0.2s ease;
+  margin-bottom: 30px;
+}
+
+.download-button:hover {
+  background-color: var(--easy-green-text);
+}
+
+.download-button:active {
+  background-color: var(--bright-green);
+}
+
+.section {
+  border-top: 1px solid var(--border-color);
+  width: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.section-title {
+  font-family: "Poppins Bold";
+  font-size: x-large;
+}
+
+.entry-title {
+  font-family: "Poppins Semi Bold";
+}
+
+.course-list {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+.course-list-left {
+  flex: 1;
+}
+
+.course-list-right {
+  flex: 1;
+}
+
+.skill-list {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.skill-list-left {
+  flex: 1;
+}
+
+.skill-list-right {
+  flex: 1;
 }
 
 /* CSS for navigation bar */
