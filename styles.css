@@ -24,6 +24,8 @@
   --white: rgb(255, 255, 255);
   --border-color: rgb(55, 152, 106);
   --easy-green-text: rgb(62, 207, 142);
+  --button-color: rgb(55, 152, 106);
+  --bright-green: rgb(28, 255, 134);
 }
 
 html {
@@ -95,7 +97,34 @@ main h1 {
 }
 
 .project-details {
-  margin: 0px 30px 20px 30px;
+  margin: 0px 30px 30px 30px;
+}
+
+.project-description {
+  margin-bottom: 35px;
+}
+
+.project-details a {
+  border: solid 1px var(--bright-green);
+  border-radius: 30px;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--button-color);
+  transition: background-color 0.2s ease;
+}
+
+.project-details a:hover {
+  background-color: var(--easy-green-text);
+}
+
+.project-details a:active {
+  background-color: var(--bright-green);
+}
+
+.project-name {
+  font-family: "Poppins Bold";
+  font-size: x-large;
 }
 
 /* CSS for navigation bar */
