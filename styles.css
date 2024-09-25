@@ -54,6 +54,29 @@ main h1 {
   font-family: "Poppins Light";
 }
 
+/* CSS for about page */
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  padding: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.about-image img{
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  max-width: 300px;
+}
+
+.about-text {
+  flex: 1;
+  margin-left: 20px;
+}
+
 /* CSS for navigation bar */
 
 .navbar {
