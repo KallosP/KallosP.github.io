@@ -111,49 +111,12 @@ main h1 {
   margin-bottom: 35px;
 }
 
-.project-details a {
-  border: solid 1px var(--bright-green);
-  border-radius: 30px;
-  padding: 10px;
-  text-decoration: none;
-  color: var(--white);
-  background-color: var(--button-color);
-  transition: background-color 0.2s ease;
-}
-
-.project-details a:hover {
-  background-color: var(--easy-green-text);
-}
-
-.project-details a:active {
-  background-color: var(--bright-green);
-}
-
 .project-name {
   font-family: "Poppins Bold";
   font-size: x-large;
 }
 
 /* CSS from resume page */
-
-.download-button {
-  border: solid 1px var(--bright-green);
-  border-radius: 30px;
-  padding: 10px;
-  text-decoration: none;
-  color: var(--white);
-  background-color: var(--button-color);
-  transition: background-color 0.2s ease;
-  margin-bottom: 30px;
-}
-
-.download-button:hover {
-  background-color: var(--easy-green-text);
-}
-
-.download-button:active {
-  background-color: var(--bright-green);
-}
 
 .section {
   border-top: 1px solid var(--border-color);
@@ -247,27 +210,6 @@ form {
   margin: 0 auto;
 }
 
-input[type="submit"] {
-  border: solid 1px var(--bright-green);
-  border-radius: 30px;
-  padding: 10px;
-  text-decoration: none;
-  color: var(--white);
-  background-color: var(--button-color);
-  transition: background-color 0.2s ease;
-  margin-bottom: 30px;
-  font-family: "Poppins Regular";
-}
-
-input[type="submit"]:hover {
-  background-color: var(--easy-green-text);
-}
-
-input[type="submit"]:active {
-  background-color: var(--bright-green);
-}
-
-
 /* CSS for navigation bar */
 
 .navbar {
@@ -343,4 +285,25 @@ input[type="submit"]:active {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+}
+
+/* Button */
+.button {
+  border: solid 1px var(--bright-green);
+  border-radius: 30px;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--button-color);
+  transition: background-color 0.2s ease;
+  margin-bottom: 30px;
+  font-family: "Poppins Regular";
+}
+
+.button:hover {
+  background-color: var(--easy-green-text);
+}
+
+.button:active {
+  background-color: var(--bright-green);
 }
